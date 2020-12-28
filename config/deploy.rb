@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "test_cap_app"
-set :repo_url, "git@github.com:minaevmaxim/test_cap_app.git"
+set :repo_url, "git@github.com:minaevmaxim/test_cap_rails_app.git"
 set :deploy_to, "/home/deployer/apps/test_cap_app"
 set :ssh_options, { :forward_agent => true }
 
