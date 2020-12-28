@@ -28,6 +28,17 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  # gem 'capistrano-faster-assets'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv', github: 'capistrano/rbenv'
+  gem 'capistrano-rbenv-install'
+  # gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq', tag: 'v1.0.3'
+  gem 'capistrano3-puma', github: 'seuros/capistrano-puma'
+  # gem 'capistrano-dotenv-tasks'
+  gem 'capistrano-yarn'
+
 end
 
 group :development do
