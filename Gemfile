@@ -32,7 +32,7 @@ group :development, :test do
   gem 'capistrano-bundler'
   # gem 'capistrano-faster-assets'
   gem 'capistrano-rails'
-  gem 'capistrano-rbenv', github: 'capistrano/rbenv'
+  gem 'capistrano-rbenv', '~> 2.1.6' #, github: 'capistrano/rbenv'
   gem 'capistrano-rbenv-install'
   # gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq', tag: 'v1.0.3'
   gem 'capistrano3-puma', github: 'seuros/capistrano-puma'

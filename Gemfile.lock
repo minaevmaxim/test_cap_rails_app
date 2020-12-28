@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/capistrano/rbenv.git
-  revision: 1fdb93a6dd4a4ab3fb786c995055cf6949daf7a4
-  specs:
-    capistrano-rbenv (2.2.0)
-      capistrano (~> 3.1)
-      sshkit (~> 1.3)
-
-GIT
   remote: https://github.com/seuros/capistrano-puma.git
   revision: d4ac7b9950ddc53835f661c7761ad3e904c48c65
   specs:
@@ -89,6 +81,9 @@ GEM
     capistrano-rails (1.6.1)
       capistrano (~> 3.1)
       capistrano-bundler (>= 1.1, < 3)
+    capistrano-rbenv (2.1.6)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
     capistrano-rbenv-install (1.2.0)
       capistrano (>= 3.0)
       capistrano-rbenv (>= 2.0)
@@ -192,7 +187,7 @@ DEPENDENCIES
   capistrano
   capistrano-bundler
   capistrano-rails
-  capistrano-rbenv!
+  capistrano-rbenv (~> 2.1.6)
   capistrano-rbenv-install
   capistrano-yarn
   capistrano3-puma!
