@@ -7,8 +7,9 @@ set :deploy_to, "/home/deployer/apps/test_cap_app"
 set :ssh_options, { :forward_agent => true }
 
 set :rbenv_type, :user
-set :rbenv_ruby, '2.7.1'
-set :rbenv_custom_path, '/home/deployer/.rbenv'
+set :rbenv_ruby_configure_opts, '--with-jemalloc'
+set :rbenv_ruby, '2.7.2'
+set :rbenv_custom_path, "/home/deployer/.rbenv"
 
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 # set :rbenv_map_bins, %w{rake gem bundle ruby rails}

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.1'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.1.4'
@@ -34,7 +34,7 @@ group :development, :test do
   # gem 'capistrano-faster-assets'
   gem 'capistrano-rails'
   gem 'capistrano-rbenv', '~> 2.1.6' #, github: 'capistrano/rbenv'
-  gem 'capistrano-rbenv-install'
+  gem 'capistrano-rbenv-install', github: 'minaevmaxim/capistrano-rbenv-install'
   # gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq', tag: 'v1.0.3'
   gem 'capistrano3-puma', github: 'seuros/capistrano-puma'
   # gem 'capistrano-dotenv-tasks'
