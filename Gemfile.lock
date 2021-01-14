@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/minaevmaxim/capistrano-rbenv-install.git
-  revision: 51d2c224f51822228f6110e0d9716801a897cd83
-  specs:
-    capistrano-rbenv-install (1.2.0)
-      capistrano (>= 3.0)
-      capistrano-rbenv (>= 2.0)
-
-GIT
   remote: https://github.com/seuros/capistrano-puma.git
   revision: d4ac7b9950ddc53835f661c7761ad3e904c48c65
   specs:
@@ -14,6 +6,13 @@ GIT
       capistrano (~> 3.7)
       capistrano-bundler
       puma (>= 4.0, < 6.0)
+
+PATH
+  remote: /home/mminaev/projects/capistrano-rbenv-install
+  specs:
+    capistrano-rbenv-install (1.2.0)
+      capistrano (>= 3.0)
+      capistrano-rbenv (>= 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -181,7 +180,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.1.4
